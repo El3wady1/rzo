@@ -280,11 +280,15 @@
             border-radius: 12px;
             box-shadow: var(--shadow);
             transition: var(--transition);
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
         }
         
         .contact-item:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            color: var(--primary-color);
         }
         
         .contact-item i {
@@ -801,14 +805,14 @@
             <h2 class="section-title animate__animated animate__fadeIn">للتواصل</h2>
             <p class="section-subtitle">نحن هنا لخدمتكم وتلبية طلباتكم</p>
             <div class="contact-info">
-                <div class="contact-item fade-in floating">
+                <a href="mailto:rzo.ksa1@gmail.com" class="contact-item fade-in floating">
                     <i class="fas fa-envelope"></i>
                     <span class="contact-text">ايميل: rzo.ksa1@gmail.com</span>
-                </div>
-                <div class="contact-item fade-in floating" style="animation-delay: 0.5s;">
+                </a>
+                <a href="https://wa.me/966539656760" target="_blank" class="contact-item fade-in floating" style="animation-delay: 0.5s;">
                     <i class="fab fa-whatsapp"></i>
                     <span class="contact-text">واتس اب: 0539656760</span>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -825,15 +829,12 @@
                 <div class="brand-name">آرزو</div>
             </div>
 
-          
-
             <div class="copyright">
                 <p>جميع الحقوق محفوظة &copy; 2023 آرزو</p>
             </div>
         </div>
     </div>
 </footer>
-
 
     <!-- زر العودة للأعلى -->
     <div class="back-to-top" id="backToTop">
